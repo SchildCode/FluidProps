@@ -9,7 +9,8 @@ This workbook contains open-source user-defined Visual Basic for Applications (V
 - Flow friction in pipes/ducts
 
 ### Detailed list of functions
-- **Water_Dens(Tw_K)**: [kg/m³] Density of fluid water at 101325 Pa
+- **Water_Dens(Tw_K)**: [kg/m³] 
+  Density of fluid water at 101325 Pa
 - **Water_Cp(Tw_K)**: [J/(kg·K)] Heat capacity of fluid water at 101325 Pa
 - **Water_Conduct(Tw_K)**: [W/(m·K)] Thermal conductivity of fluid water and solid ice at 101325 Pa
 - **Water_KineVisc(Tw_K)**: [m²/s] Kinematic viscosity of liquid water at 101325 Pa
