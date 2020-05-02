@@ -8,7 +8,7 @@ An Excel workbook with open-source user-defined Visual Basic functions in module
 - Refrigerants
 - Flow friction in pipes/ducts
 
-Conventional fluid property software solve [equation-of-state](https://en.wikipedia.org/wiki/Equation_of_state) equations, which are slow (Some properties such as enthalpy need to be calculated by a combination of iteration and numerical integration), and the most popular forms ([Cubic Equation of State](https://en.wikipedia.org/wiki/Equation_of_state#Cubic_equations_of_state)) deviate significantly from true thermophysical properties. FluidProps instead state-of-art regressions providing the best combination of calculation speed and accuracy.
+Conventional fluid property software solve [equation-of-state (EOS)](https://en.wikipedia.org/wiki/Equation_of_state) equations for each constitulent molecule in the fluid mixture. This approach is very flexible, but has two drawbacks: (i) It is slow (Some properties such as enthalpy need to be calculated by a combination of iteration and numerical integration), and (ii) The most popular forms ([Cubic EOS](https://en.wikipedia.org/wiki/Equation_of_state#Cubic_equations_of_state)) deviate significantly from true thermophysical properties. FluidProps instead applies regressions that can be both faster and more accurate than EOS-based software.
 
 ### Detailed list of functions
 - **Water_Dens(Tw_K)**<br/>[kg/m³] Density of fluid water at 101325 Pa
