@@ -13,7 +13,7 @@ Conventional fluid property software solve [equation-of-state (EOS)](https://en.
  (ii) The most popular forms ([Cubic EOS](https://en.wikipedia.org/wiki/Equation_of_state#Cubic_equations_of_state)) are known to deviate significantly from true measured thermophysical properties. 
  FluidProps instead applies regressions that are significantly faster and sufficiently accurate.
 
-### Detailed list, of functions
+### Detailed list of functions
 - **Water_Dens(Tw_K)**<br/>[kg/m³] Density of fluid water at 101325 Pa
 - **Water_Cp(Tw_K)**<br/>[J/(kg·K)] Heat capacity of fluid water at 101325 Pa
 - **Water_Conduct(Tw_K)**<br/>[W/(m·K)] Thermal conductivity of fluid water and solid ice at 101325 Pa
