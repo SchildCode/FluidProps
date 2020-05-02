@@ -2,7 +2,7 @@ Attribute VB_Name = "FluidProps"
 'FLUIDPROPS: A library of diverse fluid properties and equations (incl. psychrometrics, thermodanamics and fluid flow)
 '- All input and output parameters are in SI units
 '- References are given for all equations & data. Main references are NIST Chemistry WebBook, and ASHRAE Fundamentals Handbook 2017 (based on ASHRAE LibHuAirProp)
-'- Original version is available at https://github.com/SchildCode
+'- Original version is available at https://github.com/SchildCode/FluidProps/
 
 'Copyright original author: Peter.Schild@OsloMet.no, 2000-2020
 'This source-code is licensed freely as Attribute-ShareAlike under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
