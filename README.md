@@ -1,5 +1,5 @@
 # FluidProps
-This workbook contains open-source user-defined Visual Basic for Applications (VBA) functions in module 'FluidProps' to accurately calculate the following thermophysical properties, and is usesful for HVAC engineers, meteorologists and others:
+An Excel workbook with open-source user-defined Visual Basic functions in module 'FluidProps.bas' to calculate the following thermophysical properties, and is usesful for engineers, meteorologists and others:
 - Psychrometrics of moist air
 - Atmospheric properties: Wind, temperature and pressure as a function of altitude
 - Gases: Dry air and ideal gases
@@ -7,6 +7,8 @@ This workbook contains open-source user-defined Visual Basic for Applications (V
 - Antifreeze coolants
 - Refrigerants
 - Flow friction in pipes/ducts
+
+Conventional fluid property software solve [equation-of-state](https://en.wikipedia.org/wiki/Equation_of_state) equations, which are slow (Some properties such as enthalpy need to be calculated by a combination of iteration and numerical integration), and the most popular forms ([Cubic Equation of State](https://en.wikipedia.org/wiki/Equation_of_state#Cubic_equations_of_state)) deviate significantly from true thermophysical properties. FluidProps instead state-of-art regressions providing the best combination of calculation speed and accuracy.
 
 ### Detailed list of functions
 - **Water_Dens(Tw_K)**<br/>[kg/m³] Density of fluid water at 101325 Pa
