@@ -11,7 +11,7 @@ An Excel workbook with open-source user-defined Visual Basic functions in module
 Conventional fluid property software solve [equation-of-state (EOS)](https://en.wikipedia.org/wiki/Equation_of_state) equations for each constitulent molecule in the fluid mixture. This approach is very flexible, but has two drawbacks: 
  (i) It is slow because some properties, e.g. enthalpy, are calculated by a combination of root-solving iteration and numerical integration, and
  (ii) The most popular forms ([Cubic EOS](https://en.wikipedia.org/wiki/Equation_of_state#Cubic_equations_of_state)) are known to deviate significantly from true measured thermophysical properties. 
- FluidProps instead applies regressions that are significantly faster and sufficiently accurate.
+ FluidProps instead applies regressions that are significantly faster, and pretty accurate. For the refrigerants in particular, the propeties apply up to the critical-point with optimized rational functions of reduced temperature. In the code is documented the range of applicability, correlation coefficient (R²), and maximum deviation, for most of the correlations.
 
 ### Detailed list of functions
 - **Water_Dens(Tw_K)**<br/>[kg/m³] Density of fluid water at 101325 Pa
