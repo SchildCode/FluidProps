@@ -1,4 +1,4 @@
-# FluidProps  [![DOI](https://zenodo.org/badge/10370491.svg)](https://zenodo.org/doi/10.5281/zenodo.10370491)
+# FluidProps  [![DOI](https://zenodo.org/badge/260344331.svg)](https://zenodo.org/doi/10.5281/zenodo.10370491)
 An Excel workbook with open-source user-defined Visual Basic functions in module 'FluidProps.bas' to calculate the following thermophysical properties, and is usesful for engineers, meteorologists and others:
 - Psychrometrics of moist air
 - Atmospheric properties: Wind, temperature and pressure as a function of altitude
