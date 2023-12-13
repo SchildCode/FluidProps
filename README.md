@@ -1,4 +1,4 @@
-# FluidProps
+# FluidProps  [![DOI](https://zenodo.org/badge/260344331.svg)](https://zenodo.org/doi/10.5281/zenodo.10370491)
 An Excel workbook with open-source user-defined Visual Basic functions in module 'FluidProps.bas' to calculate the following thermophysical properties, and is usesful for engineers, meteorologists and others:
 - Psychrometrics of moist air
 - Atmospheric properties: Wind, temperature and pressure as a function of altitude
@@ -83,3 +83,16 @@ Free share-alike license (CC BY-SA 4.0): https://creativecommons.org/licenses/by
 
 ### Author
 Source code and workbook are copyright peter.schild@oslomet.no
+
+### BibTeX for citing FluidProps
+
+```bibtex
+@Misc{Schild20,
+  author = {Schild, Peter G.},
+  title = {{FluidProps}: Open-source code to calculate therrmophysical properties for engineering},
+  howpublished = {\url{https://github.com/SchildCode/FluidProps/}},
+  doi = {10.5281/zenodo.10370491},
+  url = {https://doi.org/10.5281/zenodo.10370491}
+  year = {2020}
+}
+```
