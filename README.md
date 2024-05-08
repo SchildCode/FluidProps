@@ -14,13 +14,14 @@ Conventional fluid property software solve [equation-of-state (EOS)](https://en.
  FluidProps instead applies regressions that are significantly faster, and pretty accurate. For the refrigerants in particular, the propeties apply up to the critical-point with optimized rational functions of reduced temperature. In the code is documented the range of applicability, correlation coefficient (R²), and maximum deviation, for most of the correlations.
 
 ### Detailed list of functions
-- **Water_Dens(Tw_K)**<br/>[kg/m³] Density of fluid water at 101325 Pa
-- **Water_Cp(Tw_K)**<br/>[J/(kg·K)] Heat capacity of fluid water at 101325 Pa
-- **Water_Conduct(Tw_K)**<br/>[W/(m·K)] Thermal conductivity of fluid water and solid ice at 101325 Pa
+- **Water_Dens(Tw_K)**<br/>[kg/m³] Density of liquid water at 101325 Pa
+- **Water_Cp(Tw_K)**<br/>[J/(kg·K)] Heat capacity of liquid water at 101325 Pa
+- **Water_Conduct(Tw_K)**<br/>[W/(m·K)] Thermal conductivity of liquid water and solid ice at 101325 Pa
 - **Water_KineVisc(Tw_K)**<br/>[m²/s] Kinematic viscosity of liquid water at 101325 Pa
 - **Water_DynaVisc(Tw_K)**<br/>[Pa·s] Dynamic viscosity of liquid water at 101325 Pa
 - **Water_Pr(Tw_K)**<br/>[-] Prandtl number of liquid water at 101325 Pa
-- **Water_Enth(Tw_K)**<br/>[J/kg] Specific enthalpy of fluid water  at 101325 Pa
+- **Water_Enth(Tw_K)**<br/>[J/kg] Specific enthalpy of liquid water  at 101325 Pa
+- **Water_thermDiff(Tw_K)**<br/>[m²/s] Thermal diffusivity of liquid water at standard atmospheric pressure (101325 Pa)
 - **Vapour_Pws(Tdry_K, Optional ice As Boolean = False)**<br/>[Pa] Saturation vapour pressure, i.e. the equilibrium water vapor pressure above a flat surface
 - **Vapour_Cp(Tdry_K)**<br/>[J/(kg·K)] Heat capacity of water vapour, valid near 101325 Pa
 - **Vapour_Dv(Tdry_K, Patm_Pa)**<br/>[m²/s] Vapour mass diffusivity of water vapour in air. A.k.a. diffustion coefficient. Used to calculate Schmidt number
@@ -46,6 +47,7 @@ Conventional fluid property software solve [equation-of-state (EOS)](https://en.
 - **DryAir_Cp(Tdry_K)**<br/>[J/(kg·K)] Specific heat capacity of dry air, valid at 101325 Pa
 - **DryAir_Conduct(Tdry_K)**<br/>[W/mK] Specific heat capacity of dry air, valid at 101325 Pa
 - **DryAir_Pr(Tdry_K)**<br/>[-] Prandtl number of dry air, valid at 101325 Pa
+- **DryAir_thermDiff(Tdry_K)**<br/>[m²/s] Thermal diffusivity of dry air at standard atmospheric pressure (101325 Pa)
 - **Air_Cp(Tdry_K, HumidRatio)**<br/>[J/(k·gK)] Specific heat capacity of moist air
 - **Air_Enth(Tdry_K, HumidRatio)**<br/>[J/kg dry air] Air specific enthalpy per kg dry air
 - **Air_DryBulb(Enthalpy_Jkg, HumidRatio)**<br/>[K] Dry-bulb air temperature
