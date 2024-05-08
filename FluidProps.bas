@@ -8,7 +8,7 @@
 '- Original version is available at https://github.com/SchildCode/FluidProps
 '- If you use this code, please cite it. BibTeX-format reference is given on page https://github.com/SchildCode/FluidProps
 
-'Copyright original author: Peter.Schild@OsloMet.no, 2000-2020
+'Copyright original author: Peter.Schild@OsloMet.no, 2000-2024
 'This source-code is licensed freely as Attribute-ShareAlike under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
 'It is provided without warranty of any kind.
 'Please do give author feedback if you have suggestions to improvements.
