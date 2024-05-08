@@ -20,8 +20,8 @@ Conventional fluid property software solve [equation-of-state (EOS)](https://en.
 - **Water_KineVisc(Tw_K)**<br/>[m²/s] Kinematic viscosity of liquid water at 101325 Pa
 - **Water_DynaVisc(Tw_K)**<br/>[Pa·s] Dynamic viscosity of liquid water at 101325 Pa
 - **Water_Pr(Tw_K)**<br/>[-] Prandtl number of liquid water at 101325 Pa
-- **Water_Enth(Tw_K)**<br/>[J/kg] Specific enthalpy of liquid water  at 101325 Pa
-- **Water_thermDiff(Tw_K)**<br/>[m²/s] Thermal diffusivity of liquid water at standard atmospheric pressure (101325 Pa)
+- **Water_Enth(Tw_K)**<br/>[J/kg] Specific enthalpy of liquid water at 101325 Pa
+- **Water_thermDiff(Tw_K)**<br/>[m²/s] Thermal diffusivity of liquid water at standard pressure (101325 Pa)
 - **Vapour_Pws(Tdry_K, Optional ice As Boolean = False)**<br/>[Pa] Saturation vapour pressure, i.e. the equilibrium water vapor pressure above a flat surface
 - **Vapour_Cp(Tdry_K)**<br/>[J/(kg·K)] Heat capacity of water vapour, valid near 101325 Pa
 - **Vapour_Dv(Tdry_K, Patm_Pa)**<br/>[m²/s] Vapour mass diffusivity of water vapour in air. A.k.a. diffustion coefficient. Used to calculate Schmidt number
