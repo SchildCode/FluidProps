@@ -19,7 +19,7 @@ Const onePi# = 3.14159265358979
 
 Private Function ErrorMsg#(ErrorText As String)
     'Here you can change the behaviour when out-of bounds values are calculated. Uncomment the line(s) for your preferred alternative(s).
-    MsgBox ErrorText 'ALTERNATIVE 1: Popup message box.
+    'MsgBox ErrorText 'ALTERNATIVE 1: Popup message box.
     ErrorMsg = -999# 'ALTERNATIVE 2: Return unlikely value (as Double). This is useful when you want to return error-flag to the calling routine
     'Stop 'ALTERNATIVE 3: Comment out as needed
 End Function
